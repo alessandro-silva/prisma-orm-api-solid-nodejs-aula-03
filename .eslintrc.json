@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "prettier",
+    "@rocketseat/eslint-config/node"
+  ],
+  "plugins": ["prettier", "plugin:prettier/recommended"],
+  "rules": {
+    "prettier/prettier": "error",
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off"
+  }
+}
